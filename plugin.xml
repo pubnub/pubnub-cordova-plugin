@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.pubnub.cordova.pubnub"
+        version="3.7.10">
+
+  <name>pubnub</name>
+  <description>PubNub Real-time push service in the cloud</description>
+  <author>Pubnub Inc.</author>
+  <keywords>pubsub,publish,subscribe,messaging,realtime</keywords>
+
+  <asset src="www/pubnub.js" target="js/pubnub.js"/>
+
+  <js-module src="www/pubnub.js" name="pubnub">
+    <clobbers target="pubnub" />
+  </js-module>
+
+</plugin>
