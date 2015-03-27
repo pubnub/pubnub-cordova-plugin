@@ -13,6 +13,6 @@
   <js-module src="www/pubnub.js" name="pubnub">
     <clobbers target="pubnub" />
   </js-module>
-  <platform name="android"></>
-  <platform name="ios"></>
+  <platform name="android"></platform>
+  <platform name="ios"></platform>
 </plugin>
